@@ -1,4 +1,4 @@
-# OpenNE: An open source toolkit for Network Embedding
+# GRLL
 
 This repository is forked from [OpenNE github repo](https://github.com/thunlp/OpenNE).
 
