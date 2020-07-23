@@ -1,8 +1,10 @@
 # OpenNE: An open source toolkit for Network Embedding
 
-This repository provides a standard NE/NRL(Network Representation Learning）training and testing framework. In this framework, we unify the input and output interfaces of different NE models and provide scalable options for each model. Moreover, we implement typical NE models under this framework based on tensorflow, which enables these models to be trained with GPUs.
+This repository is forked from [OpenNE github repo](https://github.com/thunlp/OpenNE).
 
-We develop this toolkit according to the settings of DeepWalk. The implemented or modified models include [DeepWalk](https://github.com/phanein/deepwalk), [LINE](https://github.com/tangjianpku/LINE), [node2vec](https://github.com/aditya-grover/node2vec), [GraRep](https://github.com/ShelsonCao/GraRep), [TADW](https://github.com/thunlp/TADW), [GCN](https://github.com/tkipf/gcn), HOPE, GF, SDNE and LE. We will implement more representative NE models continuously according to our released [NRL paper list](https://github.com/thunlp/nrlpapers). Specifically, we welcome other researchers to contribute NE models into this toolkit based on our framework. We will announce the contribution in this project.
+The experimental results in [Graph Representation Learning: A Survey](https://arxiv.org/abs/1909.00958) are generated from this repo.
+
+An example script can be found at [examples](./examples) and a dataset converter can be found at [data](./data).
 
 ## Usage
 
@@ -204,6 +206,15 @@ Note that, both GCN(a semi-supervised NE model) and TADW need additional text fe
 
 If you find *OpenNE* is useful for your research, please consider citing the following papers:
 
+    @article{chen2020graph,
+      title={Graph representation learning: a survey},
+      author={Chen, Fenxiao and Wang, Yun-Cheng and Wang, Bin and Kuo, C-C Jay},
+      journal={APSIPA Transactions on Signal and Information Processing},
+      volume={9},
+      year={2020},
+      publisher={Cambridge University Press}
+    }
+
     @InProceedings{perozzi2014deepwalk,
       Title                    = {Deepwalk: Online learning of social representations},
       Author                   = {Perozzi, Bryan and Al-Rfou, Rami and Skiena, Steven},
@@ -294,13 +305,3 @@ If you find *OpenNE* is useful for your research, please consider citing the fol
       year                     = {2016},
       organization             = {ACM}
     }
-
-## Sponsor
-
-This research is supported by Tencent, MSRA, NSFC and [BBDM-Lab](http://www.bioinfotech.cn).
-
-<img src="http://logonoid.com/images/tencent-logo.png" width = "300" height = "30" alt="tencent" align=center />
-
-<img src="http://net.pku.edu.cn/~xjl/images/msra.png" width = "200" height = "100" alt="MSRA" align=center />
-
-<img src="http://www.dragon-star.eu/wp-content/uploads/2014/04/NSFC_logo.jpg" width = "100" height = "80" alt="NSFC" align=center />
