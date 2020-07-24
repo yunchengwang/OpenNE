@@ -1,10 +1,10 @@
 # GRLL (Graph Representation Learning Library)
 
-This repository is forked from [OpenNE github repo](https://github.com/thunlp/OpenNE).
-
 The experimental results in [Graph Representation Learning: A Survey](https://arxiv.org/abs/1909.00958) are generated from this repo.
 
-An example script can be found at [examples](./examples) and a dataset converter can be found at [data](./data).
+This repository is forked from [OpenNE github repo](https://github.com/thunlp/OpenNE)
+
+An example script can be found under [examples](./examples) and a dataset converter can be found under [data](./data).
 
 ## Usage
 
