@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="openne",
-    url="https://github.com/yunchengwang/OpenNE",
+    url="https://github.com/yunchengwang/GRLL",
     license="MIT",
     author="USCMCL",
     description="Forked from THUNLP OpenNE",
